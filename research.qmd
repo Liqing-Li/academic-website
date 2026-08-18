@@ -2,11 +2,11 @@
 title: "Research"
 ---
 
-This page is generated from [`data/publications.csv`](data/publications.csv).
+<!--This page is generated from [`data/publications.csv`](data/publications.csv).
 To add, edit, or remove a paper, just edit that CSV file and re-render the
 site — no HTML or Markdown editing required. Columns: `type` (one of
 `Working Paper`, `Work in Progress`, `Publication`), `title`, `authors`,
-`venue`, `year`, `link`, `abstract`.
+`venue`, `year`, `link`, `abstract`.-->
 
 ```{r}
 #| echo: false
@@ -58,28 +58,30 @@ for (type_key in names(section_order)) {
 }
 ```
 
-## Selected Presentations
+## Research Grants
 
-**"The Effect of Urban Tree Planting on Residential Property Values and Gentrification"**
+- **PI**, DOC-NOAA ($499,520), 2025–2027 — *Integrating Mobility Data, Survey Responses, and Forecasting Information to Enhance Understanding of Decision-Making During Hazardous Weather Events in Vulnerable Communities*
+- **PI**, Texas Water Resources Institute ($284,941), 2025–2027 — *A Decision-Support Tool Integrating Hydrologic Simulation and Economic Valuation for Stormwater Infrastructure Planning*
+- **Co-PI**, Internal Grant: Collaborative Seed Grants ($50,000), 2025–2026 — *Evaluating the Effectiveness of Tax Abatement Programs in Providing Ecosystem Services*
+- **PI**, USDA-Forest Service ($447,437), 2024–2029 — *Understanding and Improving the Effectiveness of Implementing Mobile Phone-Based Emergency Early Warning System*
+- **PI**, Intramural Research Grant ($7,500), 2023–2024 — *Urban Community Gardens: Social Equity and Gentrification*
+- **PI**, Intramural Research Grant ($5,000), 2021–2022 (CSU Fullerton) — *The Impact of California Wildfire Exposure on Sex-Specific Birth Outcomes*
+- **PI**, Summer Grant for Scholarly Productivity ($5,000), 2021 (CSU Fullerton)
 
-- Agricultural and Applied Economics Association (AAEA) Annual Meeting, Atlanta, GA (Jul 2019)
-- Association of Environmental and Resource Economists (AERE) Annual Summer Meeting, Incline Village, NV (May 2019)
-- Applied Economics, Regional and Urban Studies (AERUS) Annual Midwest Graduate Student Summit, Urbana, IL (Apr 2019)
-- Southern Economic Association (SEA) Annual Meeting, Fort Lauderdale, FL (2019)
+## Conferences & Invited Presentations
 
-**"The Impact of Conservation Reserve Program on Local Employment"**
+**2025** — Association of Environmental and Resource Economists (AERE); Agricultural and Applied Economics Association (AAEA); University of Tennessee (Invited); United States Association for Energy Economics (USAEE)
 
-- AERE Annual Summer Meeting, Pittsburgh, PA (Jun 2017)
-- Northeast Agricultural and Resource Economics Association (NAREA), Washington, DC (Jun 2017)
-- AAEA Annual Meeting, Chicago, IL (Aug 2017)
+**2024** — AERE; USDA-NIFA Multi-State W5133 Annual Meeting; AAEA; Northeastern Agricultural and Resource Economics Association (NAREA); Southeastern Workshop on Energy & Environmental Economic & Policy
 
-**"Early Life Experience and Willingness to Pay for Conservation"**
+**2023** — AERE; USDA-NIFA Multi-State W5133 Annual Meeting; AAEA; Louisiana State University (Invited); University of Arizona (Invited)
 
-- W4133 Annual Meeting: Costs and Benefits of Natural Resources on Public and Private Lands, Santa Fe, NM (Feb 2019)
-- SEA Annual Meeting, Fort Lauderdale, FL (2019)
-- AAEA Annual Meeting (2020)
+**2022** — AERE; NAREA; AAEA; Western Economic Association International (WEAI); CSUF Faculty Noon Time Talk; North American Regional Science Council (NARSC)
 
-**"The Impact of Bison Reintroduction on Local Economies"**
+**2021** — NAREA; WEAI; California State University, Long Beach (Invited); University of Illinois at Urbana-Champaign (Invited)
 
-- AAEA Annual Meeting, Atlanta, GA (Jul 2019)
-- W4133 Annual Meeting, Santa Fe, NM (Feb 2019) — presented by co-author
+**2020** — NAREA; WEAI; AAEA; USDA-NIFA Multi-State W4133 Annual Meeting; University of Connecticut (Invited)
+
+**2019** — Southern Economic Association (SEA); NAREA; AAEA; USDA-NIFA Multi-State W4133 Annual Meeting; AERE; Applied Economics, Regional and Urban Studies (AERUS)
+
+**2017** — NAREA; AAEA; AERE
