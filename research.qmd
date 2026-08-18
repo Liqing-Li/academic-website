@@ -19,6 +19,7 @@ esc <- function(x) {
   x <- gsub("&", "&amp;", x, fixed = TRUE)
   x <- gsub("<", "&lt;", x, fixed = TRUE)
   x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x <- gsub("*", "\\*", x, fixed = TRUE)
   x
 }
 
@@ -58,30 +59,5 @@ for (type_key in names(section_order)) {
 }
 ```
 
-## Research Grants
 
-- **PI**, DOC-NOAA ($499,520), 2025–2027 — *Integrating Mobility Data, Survey Responses, and Forecasting Information to Enhance Understanding of Decision-Making During Hazardous Weather Events in Vulnerable Communities*
-- **PI**, Texas Water Resources Institute ($284,941), 2025–2027 — *A Decision-Support Tool Integrating Hydrologic Simulation and Economic Valuation for Stormwater Infrastructure Planning*
-- **Co-PI**, Internal Grant: Collaborative Seed Grants ($50,000), 2025–2026 — *Evaluating the Effectiveness of Tax Abatement Programs in Providing Ecosystem Services*
-- **PI**, USDA-Forest Service ($447,437), 2024–2029 — *Understanding and Improving the Effectiveness of Implementing Mobile Phone-Based Emergency Early Warning System*
-- **PI**, Intramural Research Grant ($7,500), 2023–2024 — *Urban Community Gardens: Social Equity and Gentrification*
-- **PI**, Intramural Research Grant ($5,000), 2021–2022 (CSU Fullerton) — *The Impact of California Wildfire Exposure on Sex-Specific Birth Outcomes*
-- **PI**, Summer Grant for Scholarly Productivity ($5,000), 2021 (CSU Fullerton)
 
-## Conferences & Invited Presentations
-
-**2025** — Association of Environmental and Resource Economists (AERE); Agricultural and Applied Economics Association (AAEA); University of Tennessee (Invited); United States Association for Energy Economics (USAEE)
-
-**2024** — AERE; USDA-NIFA Multi-State W5133 Annual Meeting; AAEA; Northeastern Agricultural and Resource Economics Association (NAREA); Southeastern Workshop on Energy & Environmental Economic & Policy
-
-**2023** — AERE; USDA-NIFA Multi-State W5133 Annual Meeting; AAEA; Louisiana State University (Invited); University of Arizona (Invited)
-
-**2022** — AERE; NAREA; AAEA; Western Economic Association International (WEAI); CSUF Faculty Noon Time Talk; North American Regional Science Council (NARSC)
-
-**2021** — NAREA; WEAI; California State University, Long Beach (Invited); University of Illinois at Urbana-Champaign (Invited)
-
-**2020** — NAREA; WEAI; AAEA; USDA-NIFA Multi-State W4133 Annual Meeting; University of Connecticut (Invited)
-
-**2019** — Southern Economic Association (SEA); NAREA; AAEA; USDA-NIFA Multi-State W4133 Annual Meeting; AERE; Applied Economics, Regional and Urban Studies (AERUS)
-
-**2017** — NAREA; AAEA; AERE
