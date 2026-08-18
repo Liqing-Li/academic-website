@@ -4,18 +4,27 @@ title: "CV"
 
 [**Download my CV (PDF)**](files/cv.pdf){.btn .btn-outline-primary role="button"}
 
-Drop your CV PDF into `files/cv.pdf` and this link will always point at the
-latest version — no need to change this page again.
+Drop an updated CV PDF into `files/cv.pdf` (same filename) and this link
+always points at the latest version.
 
 ## Education
 
-- **Degree**, Institution, Year
-- **Degree**, Institution, Year
+- **PhD in Applied Economics**, University of Illinois at Urbana-Champaign, 2020
+- **BA in Economics**, University of Illinois at Urbana-Champaign, 2013
 
 ## Employment
 
-- **Title**, Institution, Years
+- **Assistant Professor**, Department of Agricultural Economics, Texas A&M University
+- **Assistant Professor**, California State University, Fullerton (2020–2022)
 
 ## Fields
 
-Field 1, Field 2, Field 3
+Environmental Economics, Urban Economics, Land Conservation, Non-market Valuation
+
+## Service & Other Professional Activities
+
+- **Abstract Reviewer**, Agricultural and Applied Economics Association (AAEA) Annual Summer Meeting (2018)
+- **Secretary of Graduate Student Organization**, Department of Agricultural and Consumer Economics, University of Illinois (2017–2018)
+- **Organizational Assistant**, Heartland Workshop in Environmental and Resource Economics, UIUC (2016, 2017)
+- **Organizational Assistant**, Program in Environmental and Resource Economics (pERE) Seminar, UIUC (Spring 2017)
+- **I-Promise Mentor**, University of Illinois (2019)

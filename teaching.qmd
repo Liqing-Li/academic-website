@@ -2,14 +2,16 @@
 title: "Teaching"
 ---
 
-## Courses Taught
+## Instructor (Full Course Responsibility)
 
-**Course Title** (Institution, Semester)
-: Instructor / Teaching Assistant. One line on the course and your role.
+- **Economics, Causality, and Analytics** — California State University, Fullerton (2022)
+- **Environmental and Natural Resource Economics** (Master-level) — California State University, Fullerton (2021)
+- **Intermediate Microeconomics** — California State University, Fullerton (2020–2022)
+- **Microcomputer Applications** — University of Illinois at Urbana-Champaign (Fall 2018, Spring 2019, Fall 2019)
 
-**Course Title** (Institution, Semester)
-: Instructor / Teaching Assistant. One line on the course and your role.
+## Teaching Assistant
 
-## Teaching Materials
-
-Add links to syllabi, evaluations, or teaching statements here.
+- **Environmental Economics** (undergraduate) — University of Illinois at Urbana-Champaign (Fall 2015, Fall 2016)
+- **Agricultural Consumer and Resource Economics** (undergraduate) — University of Illinois at Urbana-Champaign (Spring 2016)
+- **Retirement & Benefit Planning** (undergraduate) — University of Illinois at Urbana-Champaign (Spring 2015)
+- **Agricultural Marketing** — University of Illinois at Urbana-Champaign (Fall 2014, Spring 2019)

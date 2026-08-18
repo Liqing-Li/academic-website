@@ -9,9 +9,9 @@ execute:
   engine: knitr
 
 website:
-  title: "Your Name"
+  title: "Liqing Li"
   site-url: "https://www.liqing-li.com"
-  description: "Personal academic website"
+  description: "Liqing Li — Assistant Professor, Department of Agricultural Economics, Texas A&M University"
   navbar:
     left:
       - href: index.qmd
@@ -26,11 +26,14 @@ website:
         text: Contact
     right:
       - icon: envelope
-        href: mailto:you@example.com
+        href: mailto:liqing.li@ag.tamu.edu
       - icon: github
         href: https://github.com/Liqing-Li
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=IzxcQdMAAAAJ&hl=en
+        text: "Google Scholar"
   page-footer:
-    center: "© 2026 Your Name"
+    center: "© 2026 Liqing Li"
 
 format:
   html:

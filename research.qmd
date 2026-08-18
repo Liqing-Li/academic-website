@@ -22,7 +22,9 @@ esc <- function(x) {
   x
 }
 
-pubs <- read.csv("data/publications.csv", stringsAsFactors = FALSE)
+has_val <- function(x) !is.na(x) && nzchar(trimws(x))
+
+pubs <- read.csv("data/publications.csv", stringsAsFactors = FALSE, colClasses = "character")
 
 section_order <- c(
   "Working Paper"    = "Working Papers",
@@ -41,17 +43,43 @@ for (type_key in names(section_order)) {
     cat("::: pub-entry\n")
     cat("<span class='pub-title'>", esc(r$title), "</span><br>\n", sep = "")
     meta <- esc(r$authors)
-    if (nzchar(r$venue)) meta <- paste0(meta, ". ", esc(r$venue))
-    if (nzchar(as.character(r$year))) meta <- paste0(meta, ". ", r$year)
+    if (has_val(r$venue)) meta <- paste0(meta, ". ", esc(r$venue))
+    if (has_val(r$year)) meta <- paste0(meta, ". ", r$year)
     cat("<span class='pub-meta'>", meta, ".</span>", sep = "")
-    if (nzchar(r$link)) {
+    if (has_val(r$link)) {
       cat(" [\\[Link\\]](", r$link, ")", sep = "")
     }
     cat("\n\n")
-    if (nzchar(r$abstract)) {
+    if (has_val(r$abstract)) {
       cat("<details><summary>Abstract</summary>\n\n", esc(r$abstract), "\n\n</details>\n", sep = "")
     }
     cat(":::\n\n")
   }
 }
 ```
+
+## Selected Presentations
+
+**"The Effect of Urban Tree Planting on Residential Property Values and Gentrification"**
+
+- Agricultural and Applied Economics Association (AAEA) Annual Meeting, Atlanta, GA (Jul 2019)
+- Association of Environmental and Resource Economists (AERE) Annual Summer Meeting, Incline Village, NV (May 2019)
+- Applied Economics, Regional and Urban Studies (AERUS) Annual Midwest Graduate Student Summit, Urbana, IL (Apr 2019)
+- Southern Economic Association (SEA) Annual Meeting, Fort Lauderdale, FL (2019)
+
+**"The Impact of Conservation Reserve Program on Local Employment"**
+
+- AERE Annual Summer Meeting, Pittsburgh, PA (Jun 2017)
+- Northeast Agricultural and Resource Economics Association (NAREA), Washington, DC (Jun 2017)
+- AAEA Annual Meeting, Chicago, IL (Aug 2017)
+
+**"Early Life Experience and Willingness to Pay for Conservation"**
+
+- W4133 Annual Meeting: Costs and Benefits of Natural Resources on Public and Private Lands, Santa Fe, NM (Feb 2019)
+- SEA Annual Meeting, Fort Lauderdale, FL (2019)
+- AAEA Annual Meeting (2020)
+
+**"The Impact of Bison Reintroduction on Local Economies"**
+
+- AAEA Annual Meeting, Atlanta, GA (Jul 2019)
+- W4133 Annual Meeting, Santa Fe, NM (Feb 2019) — presented by co-author

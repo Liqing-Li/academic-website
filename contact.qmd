@@ -2,15 +2,11 @@
 title: "Contact"
 ---
 
-**Email:** [you@example.com](mailto:you@example.com)
+**Email:** [liqing.li@ag.tamu.edu](mailto:liqing.li@ag.tamu.edu)
 
-**Address:**
-Department Name
-University Name
-Street Address
-City, State ZIP
-
-**Office:** Building, Room ###
+**Affiliation:**
+Department of Agricultural Economics
+Texas A&M University
 
 Find me elsewhere: [GitHub](https://github.com/Liqing-Li) ·
-[Google Scholar](https://scholar.google.com) · [LinkedIn](https://linkedin.com)
+[Google Scholar](https://scholar.google.com/citations?user=IzxcQdMAAAAJ&hl=en)

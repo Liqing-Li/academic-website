@@ -6,31 +6,33 @@ title: ""
 
 ::: {}
 
-# Your Name
+# Liqing Li
 
-**Your Title** (e.g. PhD Candidate) <br>
-Your Department, Your University
+**Assistant Professor** <br>
+Department of Agricultural Economics, Texas A&M University
 
-I am a [your field, e.g. applied economist] working on [your main research areas].
-I study [1–2 sentence description of your research agenda]. Before that, I
-[brief background — prior degrees, positions].
+As an applied economist, my research interests lie in the field of environmental
+economics with a concentration on conservation policy, environmental justice, and
+non-market valuation. I focus on understanding the human-environment nexus using
+modern econometric methods for causal inference and several tools in the
+non-market valuation toolbox. In my current research, I study the effects of
+policies to protect and restore the environment, and I explore sources of
+heterogeneity in individuals' preferences for environmental amenities.
+
+**Academic interests:** Environmental Economics, Urban Economics, Land
+Conservation, Non-market Valuation
 
 My CV is available [here](cv.qmd), and you can reach me at
-[you@example.com](mailto:you@example.com).
+[liqing.li@ag.tamu.edu](mailto:liqing.li@ag.tamu.edu).
 
 :::
 
-![](files/headshot.jpg){.profile-photo}
+![](files/headshot.png){.profile-photo}
 
 :::
 
-## News
+## Education
 
-```{r}
-#| echo: false
-#| results: asis
-cat("- **", format(Sys.Date(), "%Y"), "** - Add a recent update (paper accepted, talk given, award, etc.)\n", sep = "")
-```
-
-- Add another item here
+- **PhD in Applied Economics**, University of Illinois at Urbana-Champaign, 2020
+- **BA in Economics**, University of Illinois at Urbana-Champaign, 2013
 
