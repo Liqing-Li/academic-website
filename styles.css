@@ -1,8 +1,5 @@
 /* Minimal personal touches on top of the Cosmo theme */
-
-body {
-  max-width: 850px;
-}
+/* Page width/centering is handled by the `grid.body-width` setting in _quarto.yml */
 
 .navbar-title {
   font-weight: 600;
