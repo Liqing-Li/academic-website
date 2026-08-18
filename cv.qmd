@@ -1,0 +1,21 @@
+---
+title: "CV"
+---
+
+[**Download my CV (PDF)**](files/cv.pdf){.btn .btn-outline-primary role="button"}
+
+Drop your CV PDF into `files/cv.pdf` and this link will always point at the
+latest version — no need to change this page again.
+
+## Education
+
+- **Degree**, Institution, Year
+- **Degree**, Institution, Year
+
+## Employment
+
+- **Title**, Institution, Years
+
+## Fields
+
+Field 1, Field 2, Field 3

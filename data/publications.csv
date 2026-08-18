@@ -1,0 +1,4 @@
+type,title,authors,venue,year,link,abstract
+Working Paper,An Example Working Paper Title Goes Here,"Your Name",,2026,https://example.com/paper.pdf,"One or two sentence abstract summarizing the paper's question, method, and finding. Replace this with your own text."
+Work in Progress,A Second Project Still Underway,"Your Name, Coauthor Name",,2026,,"Short description of what the project is about and its current status."
+Publication,An Example Published Paper Title,"Your Name, Coauthor Name",Journal of Examples,2025,https://doi.org/10.0000/example,"Abstract or brief summary of the published paper."

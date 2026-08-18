@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+
+execute:
+  freeze: auto
+  engine: knitr
+
+website:
+  title: "Your Name"
+  site-url: "https://www.liqing-li.com"
+  description: "Personal academic website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+      - href: teaching.qmd
+        text: Teaching
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: envelope
+        href: mailto:you@example.com
+      - icon: github
+        href: https://github.com/Liqing-Li
+  page-footer:
+    center: "© 2026 Your Name"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    grid:
+      body-width: 850px

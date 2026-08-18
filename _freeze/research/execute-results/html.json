@@ -1,0 +1,15 @@
+{
+  "hash": "a94d0060e73c8390c6e26a6260162bcf",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Research\"\n---\n\nThis page is generated from [`data/publications.csv`](data/publications.csv).\nTo add, edit, or remove a paper, just edit that CSV file and re-render the\nsite — no HTML or Markdown editing required. Columns: `type` (one of\n`Working Paper`, `Work in Progress`, `Publication`), `title`, `authors`,\n`venue`, `year`, `link`, `abstract`.\n\n## Working Papers\n\n::: pub-entry\n<span class='pub-title'>An Example Working Paper Title Goes Here</span><br>\n<span class='pub-meta'>Your Name. 2026.</span> [\\[Link\\]](https://example.com/paper.pdf)\n\n<details><summary>Abstract</summary>\n\nOne or two sentence abstract summarizing the paper's question, method, and finding. Replace this with your own text.\n\n</details>\n:::\n\n## Publications\n\n::: pub-entry\n<span class='pub-title'>An Example Published Paper Title</span><br>\n<span class='pub-meta'>Your Name, Coauthor Name. Journal of Examples. 2025.</span> [\\[Link\\]](https://doi.org/10.0000/example)\n\n<details><summary>Abstract</summary>\n\nAbstract or brief summary of the published paper.\n\n</details>\n:::\n\n## Work in Progress\n\n::: pub-entry\n<span class='pub-title'>A Second Project Still Underway</span><br>\n<span class='pub-meta'>Your Name, Coauthor Name. 2026.</span>\n\n<details><summary>Abstract</summary>\n\nShort description of what the project is about and its current status.\n\n</details>\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

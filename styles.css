@@ -1,0 +1,40 @@
+/* Minimal personal touches on top of the Cosmo theme */
+
+body {
+  max-width: 850px;
+}
+
+.navbar-title {
+  font-weight: 600;
+}
+
+h1.title {
+  font-weight: 600;
+}
+
+.profile-photo {
+  float: right;
+  width: 200px;
+  border-radius: 8px;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.pub-entry {
+  margin-bottom: 1.4rem;
+}
+
+.pub-entry .pub-title {
+  font-weight: 600;
+}
+
+.pub-entry .pub-meta {
+  color: #555;
+}
+
+@media (max-width: 700px) {
+  .profile-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+  }
+}

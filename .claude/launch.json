@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "personal-website",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-lc", "export PATH=\"$HOME/.local/bin:$PATH\"; quarto preview --port 4173 --no-browser"],
+      "port": 4173
+    }
+  ]
+}

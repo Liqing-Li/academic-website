@@ -1,0 +1,15 @@
+[build]
+  publish = "_site"
+  command = """
+    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.10.18/quarto-1.10.18-linux-amd64.tar.gz && \
+    tar -xzf quarto-1.10.18-linux-amd64.tar.gz && \
+    export PATH=$PWD/quarto-1.10.18/bin:$PATH && \
+    quarto render
+  """
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Reuses the frozen R computations committed in _freeze/ (see README.md),
+# so this build does NOT need R installed — it only needs the Quarto CLI,
+# which the command above downloads on the fly.

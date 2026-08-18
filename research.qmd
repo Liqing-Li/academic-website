@@ -1,0 +1,57 @@
+---
+title: "Research"
+---
+
+This page is generated from [`data/publications.csv`](data/publications.csv).
+To add, edit, or remove a paper, just edit that CSV file and re-render the
+site — no HTML or Markdown editing required. Columns: `type` (one of
+`Working Paper`, `Work in Progress`, `Publication`), `title`, `authors`,
+`venue`, `year`, `link`, `abstract`.
+
+```{r}
+#| echo: false
+#| results: asis
+
+invisible(try(Sys.setlocale("LC_CTYPE", "en_US.UTF-8"), silent = TRUE))
+
+esc <- function(x) {
+  x <- ifelse(is.na(x), "", x)
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x
+}
+
+pubs <- read.csv("data/publications.csv", stringsAsFactors = FALSE)
+
+section_order <- c(
+  "Working Paper"    = "Working Papers",
+  "Publication"       = "Publications",
+  "Work in Progress"  = "Work in Progress"
+)
+
+for (type_key in names(section_order)) {
+  rows <- pubs[pubs$type == type_key, , drop = FALSE]
+  if (nrow(rows) == 0) next
+
+  cat("## ", section_order[[type_key]], "\n\n", sep = "")
+
+  for (i in seq_len(nrow(rows))) {
+    r <- rows[i, ]
+    cat("::: pub-entry\n")
+    cat("<span class='pub-title'>", esc(r$title), "</span><br>\n", sep = "")
+    meta <- esc(r$authors)
+    if (nzchar(r$venue)) meta <- paste0(meta, ". ", esc(r$venue))
+    if (nzchar(as.character(r$year))) meta <- paste0(meta, ". ", r$year)
+    cat("<span class='pub-meta'>", meta, ".</span>", sep = "")
+    if (nzchar(r$link)) {
+      cat(" [\\[Link\\]](", r$link, ")", sep = "")
+    }
+    cat("\n\n")
+    if (nzchar(r$abstract)) {
+      cat("<details><summary>Abstract</summary>\n\n", esc(r$abstract), "\n\n</details>\n", sep = "")
+    }
+    cat(":::\n\n")
+  }
+}
+```
